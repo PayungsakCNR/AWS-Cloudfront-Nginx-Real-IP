@@ -9,7 +9,7 @@ You must config NGINX to correction source ip address (from user not AWS Cloudfr
 3. mv cloudfront-ip-list-real-ip.conf /etc/nginx/
 4. edit your virtual host config for example
 
-<code>
+
 server {<br/>
   listen 80;<br/>
   ...<br/>
@@ -21,4 +21,4 @@ server {<br/>
   ...<br/>
   ...<br/>
 }<br/>
-</code>
+
