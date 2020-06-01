@@ -1,7 +1,7 @@
 ### AWS Cloudfront NGINX Real IP Config file ###
 
 If you want to use basic access list by ip (allow / deny) for restrictions your website but your server behind AWS Cloudfront
-<br/>You must config NGINX to correction source ip address (from user not AWS Cloudfront) , you can fllow this step.
+<br/>You must config NGINX to correction source ip address (from user not AWS Cloudfront) , you can follow this step.
 
 ### How to use this script
 1. git clone this project
