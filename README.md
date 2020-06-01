@@ -22,3 +22,6 @@ server {<br/>
   ...<br/>
 }<br/>
 
+Reference : 
+For python example code to get ip list from AWS.
+https://medium.com/@pahud/get-real-ip-coming-via-aws-cloudfront-and-elb-to-nginx-d418e5070976
