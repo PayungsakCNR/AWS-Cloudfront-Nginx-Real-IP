@@ -9,15 +9,15 @@ You must config NGINX to correction source ip address (from user not AWS Cloudfr
 3. mv cloudfront-ip-list-real-ip.conf /etc/nginx/
 4. edit your virtual host config for example
 
-server {
-  listen 80;
-  ...
-  server_name admin.mycompany.co.th;
-  include /etc/nginx/cloudfront-ip-list-real-ip.conf ### Include this config file
-  
-  allow 1.2.3.0/24; ### Your whitelist IP Address or Subnet
-  deny all;
-  ...
-  ...
-}
+server {<br/>
+  listen 80;<br/>
+  ...<br/>
+  server_name admin.mycompany.co.th;<br/>
+  include /etc/nginx/cloudfront-ip-list-real-ip.conf ### Include this config file<br/>
+  <br/>
+  allow 1.2.3.0/24; ### Your whitelist IP Address or Subnet<br/>
+  deny all;<br/>
+  ...<br/>
+  ...<br/>
+}<br/>
   
